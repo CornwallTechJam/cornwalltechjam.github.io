@@ -1,0 +1,1 @@
+!function(){function t(){}"undefined"!=typeof require?SyntaxHighlighter=require("shCore").SyntaxHighlighter:null,t.prototype=new SyntaxHighlighter.Highlighter,t.aliases=["text","plain"],SyntaxHighlighter.brushes.Plain=t,"undefined"!=typeof exports?exports.Brush=t:null}();

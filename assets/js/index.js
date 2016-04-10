@@ -1,0 +1,1 @@
+$(document).ready(function(){$("#latest-works").bxSlider({hideControlOnEnd:!0,minSlides:2,maxSlides:4,slideWidth:275,slideMargin:10,pager:!1,nextSelector:"#bx-next4",prevSelector:"#bx-prev4",nextText:">",prevText:"<"}),$("#home-block").bxSlider({hideControlOnEnd:!0,minSlides:1,maxSlides:1,pager:!1,nextSelector:"#bx-next5",prevSelector:"#bx-prev5",nextText:">",prevText:"<"})});

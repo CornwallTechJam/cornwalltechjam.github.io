@@ -1,0 +1,1 @@
+function wrapResize(){var t=$(".paper-back-full"),e=$(window).height();t.css("min-height",e+"px")}$(document).ready(wrapResize),$(window).resize(wrapResize);

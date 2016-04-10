@@ -1,0 +1,1 @@
+function wrapResize(){var t=$(".navbar"),e=($("#header-full"),$(".wrap-primary")),i=$(".wrap-dark-color"),n=t.offset().top+t.height(),r=$(window).height()-n-i.height();e.css("min-height",r+"px")}$(document).ready(wrapResize),$(window).resize(wrapResize);
