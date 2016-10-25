@@ -1,1 +1,1 @@
-function wrapResize(){var t=$(".navbar"),e=($("#header-full-plan"),$(".wrap-primary-plan")),n=$(".wrap-pointers"),r=t.offset().top+t.height(),i=$(window).height()-r;e.css("min-height",i+"px"),n.css("min-height",i+"px")}$(document).ready(wrapResize),$(window).resize(wrapResize);
+function wrapResize(){var t=$(".navbar"),e=($("#header-full-plan"),$(".wrap-primary-plan")),i=$(".wrap-pointers"),n=t.offset().top+t.height(),r=$(window).height()-n;e.css("min-height",r+"px"),i.css("min-height",r+"px")}$(document).ready(wrapResize),$(window).resize(wrapResize);
