@@ -1,1 +1,14 @@
-function wrapResize(){var t=$(".navbar"),e=($("#header-full-plan"),$(".wrap-primary-plan")),n=$(".wrap-pointers"),r=t.offset().top+t.height(),i=$(window).height()-r;e.css("min-height",i+"px"),n.css("min-height",i+"px")}$(document).ready(wrapResize),$(window).resize(wrapResize);
+$(document).ready(wrapResize);
+$(window).resize(wrapResize);
+
+function wrapResize (){
+    var nav = $('.navbar');
+    var full = $('#header-full-plan');
+    var wrap = $('.wrap-primary-plan');
+    var wrap2 = $('.wrap-pointers');
+
+    var sizeTop = nav.offset().top + nav.height();
+    var sizeWrap = $(window).height() - sizeTop;
+    wrap.css('min-height', sizeWrap + "px");
+    wrap2.css('min-height', sizeWrap + "px");
+}

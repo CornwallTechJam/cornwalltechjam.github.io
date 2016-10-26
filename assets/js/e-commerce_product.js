@@ -1,1 +1,3 @@
-$(".bxslider").bxSlider({pagerCustom:"#bx-pager"});
+$('.bxslider').bxSlider({
+      pagerCustom: '#bx-pager'
+});

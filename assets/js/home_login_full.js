@@ -1,1 +1,9 @@
-function wrapResize(){var t=$(".paper-back-full"),e=$(window).height();t.css("min-height",e+"px")}$(document).ready(wrapResize),$(window).resize(wrapResize);
+$(document).ready(wrapResize);
+$(window).resize(wrapResize);
+
+function wrapResize (){
+    var back = $('.paper-back-full');
+
+    var size = $(window).height();
+    back.css('min-height', size + "px");
+}

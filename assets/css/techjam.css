@@ -1,1 +1,46 @@
-img.hp-rover{border-top-left-radius:5px;border-top-right-radius:5px}.header-full-title{background-image:url("/assets/img/logo_pasty_pi.svg");padding-left:104px}.navbar-default .navbar-brand{background-image:url("/assets/img/logo_pasty_pi_small.svg");padding-left:53px;text-transform:none}.top-nav-social .meetup{padding-top:5px}.top-nav-social .meetup img{height:21px}.footer-swcornwall{text-align:center}.footer-swcornwall img{max-width:180px;border-radius:90px;margin:64px auto}#footer img{margin-top:8px}#carousel-cornwall-tech-jam .carousel-inner>.item>img,#carousel-cornwall-tech-jam .carousel-inner>.item>a>img{margin:auto}
+img.hp-rover {
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px
+}
+
+.header-full-title {
+    background-image: url("/assets/img/logo_pasty_pi.svg");
+    padding-left: 104px;
+}
+
+.navbar-default .navbar-brand {
+    background-image: url("/assets/img/logo_pasty_pi_small.svg");
+    padding-left: 53px;
+    text-transform: none;
+}
+
+.top-nav-social .meetup {
+    padding-top: 5px;
+}
+
+.top-nav-social .meetup img {
+    height: 21px;
+}
+
+.footer-swcornwall {
+    text-align: center;
+}
+
+.footer-swcornwall img {
+    max-width: 180px;
+    border-radius: 90px;
+    margin: 64px auto;
+}
+
+/*.footer-about p {
+    text-align: justify;
+}*/
+
+#footer img {
+    margin-top: 8px;
+}
+
+#carousel-cornwall-tech-jam .carousel-inner > .item > img, 
+#carousel-cornwall-tech-jam .carousel-inner > .item > a > img{
+    margin: auto;
+}
