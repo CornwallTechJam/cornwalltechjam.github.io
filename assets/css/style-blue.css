@@ -3339,6 +3339,11 @@ a.thumbnail.active {
   padding-left: 45px;
   color: #000;
 }
+@media (max-width: 766px) {
+  .navbar-default.navbar-dark .navbar-nav > li > a:hover {
+    background-color: #e7e7e7;
+  }
+}
 @media (min-width: 360px) and (max-width: 768px) {
   .navbar-default .navbar-brand {
     margin-left: 10px;
