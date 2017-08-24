@@ -44,3 +44,7 @@ img.hp-rover {
 #carousel-cornwall-tech-jam .carousel-inner > .item > a > img{
     margin: auto;
 }
+
+.nav.navbar-nav > .active > a {
+    background-color: #0099da;
+}

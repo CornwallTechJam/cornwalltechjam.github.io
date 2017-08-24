@@ -3341,7 +3341,7 @@ a.thumbnail.active {
 }
 @media (max-width: 766px) {
   .navbar-default.navbar-dark .navbar-nav > li > a:hover {
-    background-color: #e7e7e7;
+    background-color: #0099da;
   }
 }
 @media (min-width: 360px) and (max-width: 768px) {
