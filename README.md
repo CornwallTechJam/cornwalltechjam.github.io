@@ -1,6 +1,6 @@
 # Cornwall Tech Jam website
 
-This project is the source for:
+This project was the source for:
 
 http://www.cornwalltechjam.uk
 
